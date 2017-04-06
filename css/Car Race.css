@@ -1,0 +1,93 @@
+/*----Styles for Car Race----*/
+#race{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 1px 1px 4px #000;
+    margin-top: 100px;
+}
+#race h1{
+    margin-bottom: 20px;
+}
+#raceTrack{
+    background: url("../images/road.png") top left repeat-x;
+    height: 330px;
+    border-right: dashed 10px white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.car{
+    position: relative;
+    display: block;
+}
+#car1{
+    top: 23px;
+}
+#car2{
+    top: 104px;
+}
+#raceInfoContainer{
+    width: 80%;
+    margin: 40px auto 0;
+    background: #333;
+    height: 200px;
+    padding-bottom: 30px;
+}
+#raceInfoContainer h2{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-bottom: solid 2px white;
+    box-sizing: border-box;
+}
+.raceInfo{
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+}
+.raceInfo .result{
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+}
+#raceInfo1{
+    color: deepskyblue;
+}
+#raceInfo2{
+    color: darkorange;
+}
+/*
+input[type="button"]{
+    background: #77b72f;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+}
+*/
+/*
+input#reset{
+    background: #fc3;
+    color: #444;
+}
+*/
+.clearfix{
+    content: "";
+    display: table;
+    clear: both; 
+}
+.raceInfo .position{
+    color: yellow;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+

@@ -1,0 +1,146 @@
+/*-- Styles for ToDo List --*/
+body{
+    background: url("../images/Notebook-background4.JPG") no-repeat;
+    background-size: cover;
+}
+#toDoListWrapper{
+    margin: 120px auto;
+    width: 960px;
+    text-align: center;
+    border: none;
+    -webkit-box-shadow: 0 0 50px #000;
+    -moz-box-shadow: 0 0 50px #000;
+    -o-box-shadow: 0 0 50px #000;
+    box-shadow: 0 0 50px #000;
+    background: -webkit-linear-gradient(#b3cccc, #f2f2f2);
+    background: -moz-linear-gradient(#b3cccc, #f2f2f2);
+    background: -o-linear-gradient(#b3cccc, #f2f2f2);
+    background: linear-gradient(#b3cccc, #f2f2f2);
+}
+#toDoList:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.container{
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+/*    border: solid 1px #ccc;*/
+    /*-- fixed height for container
+    with overflow for scrollbar --*/
+    overflow: visible;
+}
+#toDoListWrapper h1{
+    text-align: center;
+/*    font-weight: bold;*/
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 2px 2px 6px #000;
+    margin: 15px 0 25px;
+    color: #333;
+}
+#trash{
+    text-shadow: 1px 1px 3px #000;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    margin: 80px auto;
+    border: none;
+    background: -webkit-radial-gradient(#f2f2f2, #999);
+    background: -moz-radial-gradient(#f2f2f2, #999);
+    background: -o-radial-gradient(#f2f2f2, #999);
+    background: radial-gradient(#f2f2f2, #999);
+/*    opacity: 0.94;*/
+    color: #333;
+    font-size: 24px;
+    -webkit-box-shadow: 0 0 100px #000;
+    -moz-box-shadow: 0 0 100px #000;
+    -o-box-shadow: 0 0 100px #000;
+    box-shadow: 0 0 100px #000;
+}
+#toDoList ul{
+    width: 14.28%;
+    margin: 0 0 20px;
+    padding: 0;
+    position: relative;
+    float: left;
+    list-style: none;
+}
+#toDoList ul li{
+    background: none;
+    border: none;
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #333;
+}
+#toDoList ul li:hover{
+    background-color: #4da6ff;
+}
+#toDoList ul li.listTitle{
+    background: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 1px white;
+    font-size: 12px;
+    text-shadow: 1px 1px 4px #000;
+}
+#toDoList ul li.listTitle:hover,
+#toDoList ul li.listTitle:active{
+    cursor: default;
+    transform: none;
+}
+#toDoList .emptySpace{
+    background: #fc3;
+    border: dashed 1px #777;
+    height: 23px;
+}
+#toDoList li.addItem{
+    display: none;
+    position: absolute;
+    top: 0;
+    background: none;
+}
+#toDoList ul:hover li.addItem{
+    display: block;
+}
+#toDoList li.addItem input{
+    width: 91%;
+    padding: 4px;
+}
+#toDoList li.addItem:active{
+    transform: none;
+}
+#toDoList input{
+    border: solid 1px black;
+}
+#toDoList ul li:hover{
+    cursor: pointer;
+}
+#toDoList ul li:active{
+    cursor: pointer;
+    transform: rotate(3deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+

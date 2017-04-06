@@ -1,0 +1,586 @@
+/*----Main Styles----*/
+
+
+
+
+/*---Cover Image Styles---*/
+.cover{
+    background: url("../images/banner.png") top left no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    -webkit-box-shadow: inset 0 0 100px #000;
+    -moz-box-shadow: inset 0 0 100px #000;
+    -o-box-shadow: inset 0 0 100px #000;
+    box-shadow: inset 0 0 100px #000;
+    padding: 220px;
+    display: table;
+}
+.cover-text{
+    text-align: center;
+    display: table-cell;
+    color: #000;
+    text-shadow: 2px 0px 5px #0066ff;
+    font-style: italic;
+    font-family: cursive;
+    vertical-align: middle;
+}
+.cover-text h1{
+    font-size: 60px;
+    margin: 20px 0;
+    letter-spacing: -3px;
+}
+.cover-text img{
+    border: solid 2px #000;
+    -webkit-box-shadow: 0px 0px 60px #000;
+    -moz-box-shadow: 0px 0px 60px #000;
+    -o-box-shadow: 0px 0px 60px #000;
+    box-shadow: 0px 0px 60px #000;
+}
+.cover-text a{
+    -webkit-box-shadow: 0px 0px 6px #000;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -o-box-shadow: 0px 0px 6px #000;
+    box-shadow: 0px 0px 6px #000;
+}
+/*---Cover Image Styles---*/
+
+
+
+/*---About ME Styles---*/
+#about-me{
+    background: url("../images/black-background-wood-wallpaper-2.jpg") top left repeat-y;
+    background-size: cover;
+    -webkit-box-shadow: inset 0 0 100px #000;
+    -moz-box-shadow: inset 0 0 100px #000;
+    -o-box-shadow: inset 0 0 100px #000;
+    box-shadow: inset 0 0 100px #000;
+    width: 100%;
+    display: table;
+}
+#my-bio{
+    padding: 100px;
+    text-align: center;
+}
+#my-bio p,#my-bio hr,#my-bio h1,#my-bio h2,#my-bio h3,#my-bio h4,#my-bio h5,#my-bio h6{
+    display: none;
+    text-shadow: 6px 6px 5px #000;
+}
+#my-bio p{
+    text-align: center;
+    line-height: 90px;
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    top: 75px;
+    margin-left: 225px;
+    width: 360px;
+    height: 90px;
+    background: url("../images/black-background-wood-wallpaper-2.jpg");
+    font-family: cursive;
+    color: #5900b3;
+    border-radius: 0 50px;
+}
+#my-bio h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #3366cc;
+    margin-bottom: 25px;
+}
+#my-bio h2{
+    font-size: 80px;
+    margin-left: -2px;
+    color: #1aa3ff;
+    margin-bottom: -5px;
+}
+#my-bio h3{
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin-left: 0px;
+    color: #0066ff;
+}
+#my-bio h4{
+    font-size: 21px;
+    letter-spacing: -1px;
+    color: #b366ff;
+}
+#my-bio h5{
+    font-size: 43px;
+    margin-left: -1px;
+    color: #33bbff;
+}
+#my-bio h5 b{
+    color: #0044cc;
+}
+#my-bio h6{
+    font-size: 55px;
+    margin-left: -1px;
+    color: #33bbff;
+    padding-bottom: 55px;
+}
+/*---About ME Styles---*/
+
+
+
+/*---About Passion Styles---*/
+#about-passion{
+    text-align: center;
+    background: -webkit-linear-gradient(#0066ff,#80bfff,#0066ff);
+    background: -moz-linear-gradient(#0066ff,#80bfff,#0066ff);
+    background: -o-linear-gradient(#0066ff,#80bfff,#0066ff);
+    background: linear-gradient(#0066ff,#80bfff,#0066ff);
+    color: white;
+    -webkit-box-shadow: inset 0 0 100px #000;
+    -moz-box-shadow: inset 0 0 100px #000;
+    -o-box-shadow: inset 0 0 100px #000;
+    box-shadow: inset 0 0 100px #000;
+    display: table;
+}
+#about-passion h1{
+    font-family: cursive;
+    font-size: 60px;
+    text-shadow: 1px 1px 8px #000;
+    padding-top: 20px;
+}
+#about-passion p{
+    margin: 0 80px;
+    text-shadow: 2px 2px 10px #000;
+    font-size: 20px;
+}
+
+/*---Animation for wall-ball---*/
+@-webkit-keyframes ball-animate{
+    0%{
+        transform: translate3d(0);
+    }
+    33%{
+        transform: translate3d(277px,70px,50px);
+    }
+    66%{
+        transform: translate3d(0,140px,50px);
+    }
+    100%{
+        transform: translate3d(277px,210px,50px);
+    }
+}
+@-moz-keyframes ball-animate{
+    0%{
+        transform: translate3d(0);
+    }
+    33%{
+        transform: translate3d(277px,70px,50px);
+    }
+    66%{
+        transform: translate3d(0,140px,50px);
+    }
+    100%{
+        transform: translate3d(277px,210px,50px);
+    }
+}
+@-o-keyframes ball-animate{
+    0%{
+        transform: translate3d(0);
+    }
+    33%{
+        transform: translate3d(277px,70px,50px);
+    }
+    66%{
+        transform: translate3d(0,140px,50px);
+    }
+    100%{
+        transform: translate3d(277px,210px,50px);
+    }
+}
+@keyframes ball-animate{
+    0%{
+        transform: translate3d(0);
+    }
+    33%{
+        transform: translate3d(277px,70px,50px);
+    }
+    66%{
+        transform: translate3d(0,140px,50px);
+    }
+    100%{
+        transform: translate3d(277px,210px,50px);
+    }
+}
+
+
+
+@-webkit-keyframes wall-1-animate{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 180px;
+    }
+}
+@-moz-keyframes wall-1-animate{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 180px;
+    }
+}
+@-o-keyframes wall-1-animate{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 180px;
+    }
+}
+@keyframes wall-1-animate{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 180px;
+    }
+}
+
+
+
+@-webkit-keyframes wall-2-animate{
+    from{
+        top: 60px;
+    }
+    to{
+        top: -110px;
+    }
+}
+@-moz-keyframes wall-2-animate{
+    from{
+        top: 60px;
+    }
+    to{
+        top: -110px;
+    }
+}
+@-o-keyframes wall-2-animate{
+    from{
+        top: 60px;
+    }
+    to{
+        top: -110px;
+    }
+}
+@keyframes wall-2-animate{
+    from{
+        top: 60px;
+    }
+    to{
+        top: -110px;
+    }
+}
+
+
+#wall-ball{
+    padding: 20px 22px 80px;
+    -webkit-box-shadow: 0 0 15px 4px #000;
+    -moz-box-shadow: 0 0 15px 4px #000;
+    -o-box-shadow: 0 0 15px 4px #000;
+    box-shadow: 0 0 15px 4px #000;
+}
+#wall-ball .wall{
+    width: 14px;
+    height: 105px;
+    background: #ff6600;
+    position: relative;
+    -webkit-box-shadow: 0 0 15px #000;
+    -moz-box-shadow: 0 0 15px #000;
+    -o-box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 15px #000;
+}
+#wall-ball #wall-1{
+    left: 55px;
+    -webkit-animation: wall-1-animate 2s linear infinite alternate;
+    -moz-animation: wall-1-animate 2s linear infinite alternate;
+    -o-animation: wall-1-animate 2s linear infinite alternate;
+    animation: wall-1-animate 2s linear infinite alternate;
+    
+/*
+    animation-name: wall-1-animate;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+*/
+}
+#wall-ball #wall-2{
+    left: 350px;
+    top: 70px;
+    -webkit-animation: wall-2-animate 1s linear infinite alternate;
+    -moz-animation: wall-2-animate 1s linear infinite alternate;
+    -o-animation: wall-2-animate 1s linear infinite alternate;
+    animation: wall-2-animate 1s linear infinite alternate;
+    
+/*
+    animation-name: wall-2-animate;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+*/
+}
+#wall-ball #ball{
+    position: relative;
+    left: 62px;
+    top: -75px;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 15px #000;
+    -moz-box-shadow: 0 0 15px #000;
+    -o-box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 15px #000;
+    -webkit-animation: ball-animate 2s linear infinite alternate;
+    -moz-animation: ball-animate 2s linear infinite alternate;
+    -o-animation: ball-animate 2s linear infinite alternate;
+    animation: ball-animate 2s linear infinite alternate;
+    
+/*
+    animation-name: ball-animate;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+*/
+}
+
+#wall-ball h1{
+    margin-top: 20px;
+    color: #ff6600;
+    text-shadow: 0 2px 15px #000;
+}
+
+
+
+
+/*---Contact ME styles---*/
+#contact-me{
+    padding: 100px;
+    background: url("../images/background_1600x1200.jpg");
+}
+#contact-me h1{
+    letter-spacing: -3px;
+    font-size: 60px;
+    color: #000;
+    font-family: cursive;
+    text-shadow: 3px 2px 5px #0066ff;
+}
+#contact-me a:hover{
+    text-decoration: none;
+    opacity: .7;
+    font-size: 25px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.contact-logo{
+    font-size: 22px;
+    font-family: cursive,sans-serif;
+    text-shadow: 1px 1px 3px #000;
+}
+#contact-me #facebook{
+    color: #0033cc;
+}
+#contact-me #instagram{
+    color: #cc00cc;
+}
+#contact-me #linked-in{
+    color: #3399ff;
+}
+#contact-me #whatsapp{
+    color: #33cc33;
+}
+#contact-me #gmail{
+    color: #e62e00;
+}
+
+/*---EMAIL Form---*/
+#mail-me{
+    padding: 100px;
+/*    background: url("../images/background-portfolio-web-template-webentwicklung-images-website.jpg");*/
+    background: -webkit-linear-gradient(#bfbfbf, #f2f2f2, #bfbfbf);
+    background: -moz-linear-gradient(#bfbfbf, #f2f2f2, #bfbfbf);
+    background: -o-linear-gradient(#bfbfbf, #f2f2f2, #bfbfbf);
+    background: linear-gradient(#bfbfbf, #f2f2f2, #bfbfbf);
+    -webkit-box-shadow: inset 0 0 150px #000;
+    -moz-box-shadow: inset 0 0 150px #000;
+    -o-box-shadow: inset 0 0 150px #000;
+    box-shadow: inset 0 0 150px #000;
+}
+#mail-me h1{
+    letter-spacing: -3px;
+    font-size: 60px;
+    color: #000;
+    font-family: cursive;
+    text-shadow: 3px 2px 5px #0066ff;
+}
+#mail-me label{
+    font-size: 16px;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px #777;
+}
+
+
+
+
+
+
+/*---Projects Styles---*/
+#project-background{
+    background: url("../images/projects-background%20(1).jpg");
+    background-size: cover;
+}
+#project-container{
+    margin: 140px auto;
+}
+#project-container ul{
+    list-style: none;
+}
+#project-container .project{
+/*    margin: -15px 0;*/
+    height: 250px;
+    box-shadow: 0 0 50px #000;
+    background: -webkit-linear-gradient(#e6e6e6, #fff);
+    background: -moz-linear-gradient(#e6e6e6, #fff);
+    background: -o-linear-gradient(#e6e6e6, #fff);
+    background: linear-gradient(#e6e6e6, #fff);
+    font-family: cursive;
+}
+#project-container .project .caption{
+    margin-top: -15px;
+}
+#project-container .project #tip-cal-select{
+    margin-top: -16px;
+}
+#project-container .project #tip-image{
+    height: 170px;
+}
+#project-container .project #car-race-select{
+    margin-top: 0px;
+}
+#project-container .project h3{
+    font-size: 18px;
+}
+#project-container .project p{
+    font-size: 17px;
+}
+#project-container a:hover{
+    text-decoration: none;
+}
+#project-container .project .caption p{
+    color: #666;
+}
+#project-container .project .caption p span{
+    font-size: 35px;
+    display: none;
+    position: relative;
+    top: -10px;
+    color: #bfbfbf;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and ( max-width: 1100px ){
+    .navbar-left li>a{
+        margin-top: 5px;
+        padding: 15px 13px;
+        font-weight: 900;
+        position: relative;
+    }
+    #about-passion p{
+        margin: 0 100px;
+    }
+    #wall-ball #for-fixing-animation{
+        padding: 0 0 80px 160px;
+    }
+    #project-container .project #tip-image{
+        height: 120px;
+    }
+}
+@media only screen and ( max-width: 500px ){
+    #wall-ball #for-fixing-animation{
+        padding: 0 0 0px 0px;
+        margin-left: -37px;
+    }
+    .cover{
+        padding: 40% 20%;
+    }
+    #my-bio{
+        padding: 20px;
+    }
+    #my-bio h1{
+        font-size: 81px;
+    }
+    #my-bio h2{
+        font-size: 59px;
+    }
+    #my-bio h3{
+        font-size: 18px;
+    }
+    #my-bio h4{
+        font-size: 17px;
+    }
+    #my-bio h5{
+        font-size: 34px;
+    }
+    #my-bio h6{
+        font-size: 43px;
+    }
+    #mail-me{
+        padding: 60px 30px 60px;
+    }
+    #mail-me h1{
+        font-size: 35px;
+    }
+    #contact-me{
+        padding: 60px 30px 60px;
+    }
+    #contact-me h1{
+        font-size: 42px;
+    }
+    .contact-logo{
+        font-size: 16px;
+    }
+    #contact-me a:hover{
+        font-size: 18px;
+    }
+    #project-container .project #tip-image{
+        height: 170px;
+    }
+    
+}
+
+@media only screen and ( max-width: 770px ){
+    #project-container .project #tip-image{
+        height: 170px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+					
